@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trivia</title>
+	<link rel="stylesheet" href="play.css">
+</head>
+<body>
+	<div class="navbar">
+		<a href="file:///C:/Users/cutew/Downloads/trivia/trivia.html">Home</a>
+		<a href="file:///C:/Users/cutew/Downloads/trivia/play.html">Play</a>
+	</div>
+	<div id="title"><h1><center>Play</center></h1></div>
+	<!--<a href="#" class="playbutton">
+		<img src="earth.jpg" alt="Earth" class="earth">
+	</a>-->
+	<div class="button">
+		<a href="#" onclick="hideButton(); startTimer();">
+		<img src="earth.jpg" alt="Earth Button">
+		</a>
+
+	</div>
+
+	<section class = "main"> 
+        <p id = "output"> </p>
+        <div class = "bottom">
+            <div class = "input-container">
+                <input id="in"/>
+                <div id = "submit"><img src="send.png" class="pic"><!--➢--></div>
+            </div>
+        </div>
+    </section>
+    <script src = "script.js"></script>
+
+	<!--<p>Score: <span id="score">0</span></p>
+    <div id="question"></div>
+    <input type="text" id="answerInput" placeholder="Your Answer">
+    <button onclick="submitAnswer()">Submit</button>
+
+    <script src="script.js"></script>-->
+
+	<!--<script src="script.js"></script>-->
+
+	<!--<div id="question-container">
+		<h2 id="question">Generating question...</h2>
+	</div>-->
+
+	<div class = "timer" id="timer"></div>
+	<script src="trivia.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+﻿body {
+  background-color: white;
+  font-family: "Arial Black", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  //background-image: url("earth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ // background-size: 35%;
+  //background-position: 50% -25%;*/
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  font-family: "Arial Black", Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.navbar a:active {
+  background-color: #888;
+}
+
+//.navbar img {
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+h1 {
+  padding: 40px;
+  font-size: 40px;
+}
+
+.timer {
+  font-size: 40px;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  //text-align: center;
+  //margin-left: 1060px;
+  //margin-top: -570px;
+}
+
+.playbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  width: 100px;
+}
+
+/*.playbutton img{
+	width: 100%;
+	height: auto;
+}
+
+.earth {
+  width: 35%;
+  height: auto;
+}*/
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -164px;
+  margin-left: 17px;
+  z-index: 1;
+}
+
+.button img {
+  width: 450px; 
+  height: auto;
+}
+
+.button.hidden{
+	opacity:0;
+	pointer-events: none;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#in {
+  padding: 5px;
+}
+
+#submit {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pic {
+  width: 40px; 
+  height: auto; 
+}
+
+#output {
+      min-height: 200px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      overflow: auto; /* Add this line */
+      word-wrap: break-word; /* Add this line */
+    }
